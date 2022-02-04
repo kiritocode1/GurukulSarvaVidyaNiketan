@@ -1,6 +1,5 @@
 import React,{useState} from "react";
 // className="w-6 h-6 rounded-full bg-slate-500 flex items-center justify-center hover:bg-white transition-all duration-[700ms]"
-import {facebook10} from "../icons/Facebook-10.svg"
 
 
 const Dropdown = () => {
@@ -21,16 +20,14 @@ const Dropdown = () => {
 const NavbarComponent = (props) => {
     const [open, setopen] = useState(false);
     return (<>
-
         <li className="nav-item flex flex-col">
-        < a  className ="icon-button" href=" " onClick={()=>setopen(!open)}>
-    {props.icon}</a>
+            < a  className ="icon-button" href=" " onClick={()=>setopen(!open)}>
+                {props.icon}
+            </a>
         {open && props.children}
         </li>
     </>);
 };
-
-
 const Navbar = (props) => {
     return (
         <>

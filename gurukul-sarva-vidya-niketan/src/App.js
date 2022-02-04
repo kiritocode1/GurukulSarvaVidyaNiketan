@@ -2,7 +2,7 @@ import DefaultHOC from './HOC/HomeHOC';
 import HomeLayout from './Layout/Home.Layout';
 import {Navbar,NavbarComponent} from './NavBar/Navbar';
 import './App.css';
-import { facebook10 } from "../icons/Facebook-10.svg";
+// import { facebook10 } from "../icons/Facebook-10.svg";
 
 const Temp = () => {
   return (
@@ -23,8 +23,8 @@ function App() {
   return (
     <div className="App">
       <Navbar>
-        <NavbarComponent icon={!NavbarComponent.open?"o":"c"} >hii</NavbarComponent>
-        <NavbarComponent icon={facebook10}/>
+        <NavbarComponent icon="sad" >hii</NavbarComponent>
+        <NavbarComponent icon="🐱"/>
         <NavbarComponent icon="m"/>
         <NavbarComponent icon="a"/>
       </Navbar>
