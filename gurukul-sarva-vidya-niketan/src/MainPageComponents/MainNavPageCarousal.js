@@ -23,8 +23,11 @@ const MainPageGreenPart = (props) => {
 // ? the quick brown fox jumped over the lazy dog 
 const MainPageComponents = () => { 
     return (<>
-        <h1>this is the  main page component page .</h1>
-        <img src={laughingKids} alt="laugh" className="w-full h-40 "/>
+        <div>
+            <div className="w-full h-[50%] z-0 flex items-center absolute ">
+                <h1 className="absolute z-10  flex text-center bg-invisible text-white text-7xl">hello</h1>
+                <img src={laughingKids} alt="laugh" className="w-full h-[100%] z-0 " /></div>
+        </div>
     </>);
 };
 
