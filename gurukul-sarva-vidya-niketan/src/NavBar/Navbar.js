@@ -30,7 +30,7 @@ const NavbarComponent = (props) => {
 const Navbar = (props) => {
     return (
         <>
-            <MainPageGreenPart phoneno="9421911353" email="kathawalearyan9@gmail.com"/>
+            <MainPageGreenPart phoneno="+918421911353" email="sanjeevanik3@gmail.com"/>
             <div className="navbar">
                 <ul className="navbar-nav">
                     {props.children}
