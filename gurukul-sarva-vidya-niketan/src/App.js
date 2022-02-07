@@ -2,7 +2,6 @@ import DefaultHOC from './HOC/HomeHOC';
 import HomeLayout from './Layout/Home.Layout';
 import {Navbar,NavbarComponent} from './NavBar/Navbar';
 import './App.css';
-// import { facebook10 } from "../icons/Facebook-10.svg";
 
 const Temp = () => {
   return (

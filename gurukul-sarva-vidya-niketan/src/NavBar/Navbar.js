@@ -1,10 +1,9 @@
-import React,{useState} from "react";
+import React, { useState } from "react";
+import { MainPageGreenPart } from "../MainPageComponents/MainNavPageCarousal";
 // className="w-6 h-6 rounded-full bg-slate-500 flex items-center justify-center hover:bg-white transition-all duration-[700ms]"
-
-
 const Dropdown = () => {
     const DropdownItem = (props) => {
-        return (<a href=" # ">
+        return (<a href=" https://google.com ">
         <span className="w-6 h-6 rounded-full bg-slate-500 flex items-center justify-center hover:bg-white transition-all duration-[700ms]">{props.leftIcon}</span>
             {props.children}
                 <span className="w-6 h-6 rounded-full bg-slate-500 flex items-center justify-center hover:bg-white transition-all duration-[700ms]">{props.rightIcon}</span>
@@ -31,6 +30,7 @@ const NavbarComponent = (props) => {
 const Navbar = (props) => {
     return (
         <>
+            <MainPageGreenPart phoneno="9421911353" email="kathawalearyan9@gmail.com"/>
             <div className="navbar">
                 <ul className="navbar-nav">
                     {props.children}
@@ -39,5 +39,4 @@ const Navbar = (props) => {
         </>
     );
 };
-
 export { Navbar, NavbarComponent,Dropdown};
