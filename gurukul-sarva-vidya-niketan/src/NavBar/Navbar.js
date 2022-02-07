@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { MainPageGreenPart } from "../MainPageComponents/MainNavPageCarousal";
+import {MainPageComponents ,MainPageGreenPart } from "../MainPageComponents/MainNavPageCarousal";
 // className="w-6 h-6 rounded-full bg-slate-500 flex items-center justify-center hover:bg-white transition-all duration-[700ms]"
 const Dropdown = () => {
     const DropdownItem = (props) => {
@@ -36,6 +36,7 @@ const Navbar = (props) => {
                     {props.children}
                 </ul>
         </div>
+        <MainPageComponents/>
         </>
     );
 };
