@@ -21,11 +21,11 @@ const MainPageGreenPart = (props) => {
     </div>);
 };
 // ? the quick brown fox jumped over the lazy dog 
-const MainPageComponents = () => { 
+const MainPageComponents = (props) => { 
     return (<>
         <div>
-            <div className="w-full h-[50%] z-0 flex items-center absolute ">
-                <h1 className="absolute z-10  flex text-center bg-invisible text-white text-7xl">hello</h1>
+            <div className="w-full h-[50%] z-0 flex items-center absolute justify-center ">
+                <div className="absolute z-10  flex text-center bg-invisible text-white text-7xl">{props.header}</div>
                 <img src={laughingKids} alt="laugh" className="w-full h-[100%] z-0 " /></div>
         </div>
     </>);

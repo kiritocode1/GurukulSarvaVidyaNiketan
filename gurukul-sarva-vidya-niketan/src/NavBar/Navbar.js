@@ -36,7 +36,7 @@ const Navbar = (props) => {
                     {props.children}
                 </ul>
         </div>
-        <MainPageComponents/>
+        <MainPageComponents header="hello"/>
         </>
     );
 };
