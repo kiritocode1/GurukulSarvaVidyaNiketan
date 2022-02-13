@@ -24,7 +24,7 @@ const MainPageGreenPart = (props) => {
 const MainPageComponents = (props) => { 
     return (<>
         <div>
-            <div className="w-full h-[50%] z-0 flex items-center absolute justify-center ">
+            <div className="w-full h-[100%]  flex items-center absolute justify-center ">
                 <div className="absolute z-10  flex text-center bg-invisible text-white text-7xl">{props.header}</div>
                 <img src={laughingKids} alt="laugh" className="w-full h-[100%] z-0 " /></div>
         </div>

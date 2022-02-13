@@ -22,14 +22,15 @@ function App() {
   return (
     <div className="App">
       <Navbar>
-        <NavbarComponent icon="sad" >hii</NavbarComponent>
+        <NavbarComponent icon="😎"/>
         <NavbarComponent icon="🐱"/>
-        <NavbarComponent icon="m"/>
-        <NavbarComponent icon="a"/>
+        <NavbarComponent icon="😍"/>
+        <NavbarComponent icon="🙂"/>
       </Navbar>
-      <DefaultHOC path="/nice" exact component={Temp} />
-      <DefaultHOC path="/path" exact  component={HomeLayout}/>
-    </div>
+      <DefaultHOC path="/nice"  component={Temp} />
+      <DefaultHOC path="/"   component={HomeLayout}/>
+      </div>
+      
   );
 }
 
